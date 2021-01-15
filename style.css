@@ -1,26 +1,27 @@
-
 /* définir image clef animation */
 
 @-webkit-keyframes move-background {
     from {
-          -webkit-transform: translate3d(0px, 0px, 0px);
-      }
-      to { 
-          -webkit-transform: translate3d(1000px, 0px, 0px);
-      }
+        -webkit-transform: translate3d(0px, 0px, 0px);
+    }
+    to {
+        -webkit-transform: translate3d(1000px, 0px, 0px);
+    }
 }
 
-/* background */  
 
-.background-container{
+/* background */
+
+.background-container {
     position: fixed;
     top: 0;
-    left:0;
+    left: 0;
     bottom: 0;
     right: 0;
 }
 
-/* etoiles */ 
+
+/* etoiles */
 
 .etoiles {
     background: black url("Sources/etoiles.png") repeat;
@@ -32,11 +33,12 @@
     display: block;
     z-index: 0;
 }
- 
-/* etoiles pour la brillance */ 
 
-.bligbling{
-    width:10000px;
+
+/* etoiles pour la brillance */
+
+.bligbling {
+    width: 10000px;
     height: 100%;
     background: transparent url("Sources/bligbling.png") repeat;
     background-size: 1000px 1000px;
@@ -47,8 +49,8 @@
     z-index: 2;
 }
 
-/* etoiles pour la brillance */ 
 
+/* etoiles pour la brillance */
 
 
 /*
@@ -62,6 +64,26 @@
   
 */
 
+body {
+    /* AWA : Colorer le fond en noir*/
+    background: black;
+}
 
+h2 {
+    /*AWA : Colorer l'intro en bleu*/
+    color: blue;
+}
 
+#text {
+    /*AWA : Colorer le texte en jaune*/
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fcdf2b;
+}
 
+img {
+    /*AWA : taille du logo Stars War*/
+    width: 600px;
+    height: auto;
+}
