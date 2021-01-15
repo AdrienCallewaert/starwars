@@ -18,8 +18,28 @@ h2 {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    color:#fcd000;
-    animation : défilement 100 s linéaire 13 s ;
+    color: #fcd000;
+    animation: défilement 100 s linéaire 13 s;
+    /*AWA : prend 50% de l'espace de l'écran*/
+    animation: defile 25s;
+    /*AWA : Définir l'animation, nom, durée*/
+    margin: 0 auto;
+    color: #fcdf2b;
+    /*couleur de fond*/
+    transform-style: preserve-3d;
+    transform: rotateX(45deg);
+}
+
+@keyframes defile {
+    /*AWA : méthode pour l'animation*/
+    0% {
+        /*AWA : position de départ et action*/
+        transform: rotateX(45deg) translateY(500px);
+    }
+    100% {
+        /*AWA : position de fin et action*/
+        transform: rotateX(45deg) translateY(-200px);
+    }
 }
 
 img {
@@ -27,11 +47,3 @@ img {
     width: 600px;
     height: auto;
 }
-
-
-
-  
-
-
-
-
