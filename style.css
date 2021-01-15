@@ -1,16 +1,23 @@
-                body {
-                /* AWA : Colorer le fond en noir*/
-                background: black;
-            }
-            
-            h2 {
-                /*AWA : Colorer l'intro en bleu*/
-                color: blue;
-            }
-            
-            #text {
-                /*AWA : Colorer le texte en jaune*/
-                width: 50%;
-                margin-left: auto;
-                margin-right: auto;
-                color: yellow;
+body {
+    /* AWA : Colorer le fond en noir*/
+    background: black;
+}
+
+h2 {
+    /*AWA : Colorer l'intro en bleu*/
+    color: blue;
+}
+
+#text {
+    /*AWA : Colorer le texte en jaune*/
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: yellow;
+}
+
+img {
+    /*AWA : taille du logo Stars War*/
+    width: 600px;
+    height: auto;
+}
