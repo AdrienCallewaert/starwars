@@ -1,4 +1,7 @@
-
+body {
+    /* AWA : Colorer le fond en noir*/
+    background: black;
+}
 
 h2 {
     /*AWA : Colorer l'intro en bleu*/
