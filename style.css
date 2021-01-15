@@ -18,6 +18,7 @@ h2 {
     /*AWA : Définir l'animation, nom, durée*/
     margin: 0 auto;
     color: #fcdf2b;
+    /*couleur de fond*/
     transform-style: preserve-3d;
     transform: rotateX(45deg);
 }
