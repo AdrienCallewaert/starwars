@@ -1,6 +1,8 @@
 body {
     /* AWA : Colorer le fond en noir*/
     background: black;
+    perspective: 350px;
+    /* AWA : mise en prespective du bloc texte*/
 }
 
 h2 {
@@ -11,11 +13,25 @@ h2 {
 #text {
     /*AWA : Colorer le texte en jaune*/
     width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    /*AWA : prend 50% de l'espace de l'écran*/
+    animation: defile 25s;
+    /*AWA : Définir l'animation, nom, durée*/
+    margin: 0 auto;
     color: #fcdf2b;
     transform-style: preserve-3d;
     transform: rotateX(45deg);
+}
+
+@keyframes defile {
+    /*AWA : méthode pour l'animation*/
+    0% {
+        /*AWA : position de départ et action*/
+        transform: rotateX(45deg) translateY(500px);
+    }
+    100% {
+        /*AWA : position de fin et action*/
+        transform: rotateX(45deg) translateY(-200px);
+    }
 }
 
 img {
