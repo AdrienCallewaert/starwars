@@ -38,7 +38,7 @@ h2 {
     }
     100% {
         /*AWA : position de fin et action*/
-        transform: rotateX(45deg) translateY(-200px);
+        transform: rotateX(45deg) translateY(-800px);
     }
 }
 
